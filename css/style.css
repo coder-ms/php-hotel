@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+#############################################
+STILE
+#############################################
+*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2vh;
+}
+
+p {
+    font-size: 1.5vh;
+}
+
+.containerx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formx {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imgHotel {
+    height: 30vh;
+
+}
+
+img {
+    height: 30vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.hotelInformation {
+    padding: 10px;
+}
+
+.hotels {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hotelCard {
+    width: 18%;
+    height: 55vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: linear-gradient(100deg, rgba(0, 76, 255, 0.5), rgba(0, 255, 0, 0.5));
+}

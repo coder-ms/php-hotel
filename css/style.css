@@ -31,7 +31,11 @@ p {
 
 .formx {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(122, 121, 121);
+    height: 10vh;
+    margin-bottom: 40px;
 }
 
 
